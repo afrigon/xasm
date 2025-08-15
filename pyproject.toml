@@ -1,0 +1,13 @@
+[project]
+name = "xasm"
+version = "0.1.0"
+description = "Assembler for xpu, A minecraft CPU"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "litemapy>=0.11.0b0",
+    "typer>=0.16.0",
+]
+
+[project.scripts]
+xasm = "xasm.cli:app"
