@@ -3,7 +3,7 @@ lockfile = true
 
 [tools]
 python = "3.13"
-uv = "0"
+uv = "0.12"
 
 [tasks.build]
 description = "Build the source and wheel distributions"
