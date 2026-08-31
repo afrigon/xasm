@@ -4,3 +4,11 @@ lockfile = true
 [tools]
 python = "3.13"
 uv = "0"
+
+[tasks.build]
+description = "Build the source and wheel distributions"
+run = "uv build"
+
+[tasks.run]
+description = "Run the xasm CLI"
+run = "uv run --with-editable . xasm"
