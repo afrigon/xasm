@@ -9,7 +9,7 @@ world beside the CPU.
 
 ```sh
 uv sync
-uv run --with-editable . xasm build examples/helloworld.asm -o helloworld.litematic
+mise run run -- build examples/helloworld.asm -o helloworld.litematic
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ uv run --with-editable . xasm build examples/helloworld.asm -o helloworld.litema
 `xasm build` assembles a source file and writes the resulting schematic:
 
 ```sh
-uv run --with-editable . xasm build <input> --output <output>
+mise run run -- build <input> --output <output>
 ```
 
 Without `--output`, the schematic is written next to the input file.
