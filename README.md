@@ -8,7 +8,7 @@ world beside the CPU.
 ## Quick start
 
 ```sh
-uv sync
+mise run install
 mise run run -- build examples/helloworld.asm -o helloworld.litematic
 ```
 

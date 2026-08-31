@@ -5,6 +5,10 @@ lockfile = true
 python = "3.13"
 uv = "0.12"
 
+[tasks.install]
+description = "Install dependencies"
+run = "uv sync"
+
 [tasks.build]
 description = "Build the source and wheel distributions"
 run = "uv build"
