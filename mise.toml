@@ -12,6 +12,6 @@ run = "uv sync"
 description = "Build the source and wheel distributions"
 run = "uv build"
 
-[tasks.run]
+[tasks.xasm]
 description = "Run the xasm CLI"
 run = "uv run --with-editable . xasm"

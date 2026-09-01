@@ -9,7 +9,7 @@ world beside the CPU.
 
 ```sh
 mise run install
-mise run run -- build examples/helloworld.asm -o helloworld.litematic
+mise run xasm -- build examples/helloworld.asm -o helloworld.litematic
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ mise run run -- build examples/helloworld.asm -o helloworld.litematic
 `xasm build` assembles a source file and writes the resulting schematic:
 
 ```sh
-mise run run -- build <input> --output <output>
+mise run xasm -- build <input> --output <output>
 ```
 
 Without `--output`, the schematic is written next to the input file.
